@@ -13,6 +13,8 @@
 		2EE12711198991920031D347 /* MultiFingerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE1270F198991920031D347 /* MultiFingerTests.m */; };
 		4A48107B19708CAB0003A32E /* ExistTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A48107A19708CAB0003A32E /* ExistTests.m */; };
 		A88930121685098E00FC7C63 /* KIF.h in Headers */ = {isa = PBXBuildFile; fileRef = A88930111685098E00FC7C63 /* KIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB640B1B19CC6FC600D01730 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB640B1A19CC6FC600D01730 /* WebViewController.m */; };
+		AB640B1D19CC732C00D01730 /* WebviewTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = AB640B1C19CC732C00D01730 /* WebviewTestCase.m */; };
 		D927B9DC18F9DF2D00DAD036 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D927B9DB18F9DF2D00DAD036 /* TableViewController.m */; };
 		D927B9DF18F9E46400DAD036 /* UITableView-KIFAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D927B9DD18F9E46400DAD036 /* UITableView-KIFAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D927B9E018F9E46400DAD036 /* UITableView-KIFAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = D927B9DE18F9E46400DAD036 /* UITableView-KIFAdditions.m */; };
@@ -208,6 +210,8 @@
 		AAB072A213971AB2008AF393 /* UIWindow-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow-KIFAdditions.h"; sourceTree = "<group>"; };
 		AAB072A313971AB2008AF393 /* UIWindow-KIFAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow-KIFAdditions.m"; sourceTree = "<group>"; };
 		AAB072B413971AEA008AF393 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB640B1A19CC6FC600D01730 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		AB640B1C19CC732C00D01730 /* WebviewTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebviewTestCase.m; sourceTree = "<group>"; };
 		C194255615D83DE9004FC314 /* KIFTypist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIFTypist.h; sourceTree = "<group>"; };
 		C194255715D83DE9004FC314 /* KIFTypist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIFTypist.m; sourceTree = "<group>"; };
 		CDFD8E84139728B4008D299F /* NSFileManager-KIFAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager-KIFAdditions.h"; sourceTree = "<group>"; };
@@ -475,6 +479,7 @@
 				EB60ECFE177F9032005A041A /* TapViewController.m */,
 				EB60ECFF177F9032005A041A /* TestSuiteViewController.m */,
 				EA0F25491829839E006FF825 /* CollectionViewController.m */,
+				AB640B1A19CC6FC600D01730 /* WebViewController.m */,
 				D9EA274218F05A6700D87E57 /* ScrollViewController.m */,
 				D927B9DB18F9DF2D00DAD036 /* TableViewController.m */,
 				EB60ECC7177F8C83005A041A /* Supporting Files */,
@@ -509,6 +514,7 @@
 				EB3F654417AA0B8400469D18 /* TableViewTests.m */,
 				EA0F2546182979BE006FF825 /* CollectionViewTests.m */,
 				D9EA274018F05A6000D87E57 /* ScrollViewTests.m */,
+				AB640B1C19CC732C00D01730 /* WebviewTestCase.m */,
 				EB02523D17AA109400A7D13A /* CompositionTests.m */,
 				EB60ED0C177F90BA005A041A /* TypingTests.m */,
 				EB60ED0D177F90BA005A041A /* WaitForAbscenceTests.m */,
@@ -842,6 +848,7 @@
 				EABD46BA1857A0F300A5F081 /* WaitForAbscenceTests.m in Sources */,
 				EA47DA2818EDFD6F0034D2F5 /* CollectionViewTests.m in Sources */,
 				EABD46BB1857A0F300A5F081 /* WaitForTappableViewTests.m in Sources */,
+				AB640B1D19CC732C00D01730 /* WebviewTestCase.m in Sources */,
 				EABD46BC1857A0F300A5F081 /* WaitForViewTests.m in Sources */,
 				EABD46BD1857A0F300A5F081 /* LandscapeTests.m in Sources */,
 				EABD46BE1857A0F300A5F081 /* TableViewTests.m in Sources */,
@@ -857,6 +864,7 @@
 			files = (
 				EB9FB42717A5BACB00DDF160 /* GestureViewController.m in Sources */,
 				EA0F254A1829839E006FF825 /* CollectionViewController.m in Sources */,
+				AB640B1B19CC6FC600D01730 /* WebViewController.m in Sources */,
 				EB60ECCD177F8C84005A041A /* main.m in Sources */,
 				EB60ED00177F9032005A041A /* AppDelegate.m in Sources */,
 				D927B9DC18F9DF2D00DAD036 /* TableViewController.m in Sources */,
